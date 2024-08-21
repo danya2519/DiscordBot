@@ -28,10 +28,10 @@ intents.messages = True
 intents.bans = True
 
 client = OpenAI(
-    api_key = "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"
+    api_key = ""
 )
 
-OpenAI.api_key = "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"
+OpenAI.api_key = ""
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
